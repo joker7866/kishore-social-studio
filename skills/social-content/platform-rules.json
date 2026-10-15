@@ -1,0 +1,132 @@
+{
+  "version": "1.0.0",
+  "note": "hard = the platform rejects or ignores content over the limit (blocks copy-as-ready). editorial = our own preference (warning only). Sources and verification dates are listed in docs/PLATFORM-LIMITS.md.",
+  "sources": {
+    "yt_title": { "url": "https://support.google.com/youtube/answer/57404", "verifiedOn": "2026-10-14", "official": true },
+    "yt_description": { "url": "https://support.google.com/youtube/answer/57404", "verifiedOn": "2026-10-14", "official": true },
+    "yt_hashtags": { "url": "https://support.google.com/youtube/answer/6390658", "verifiedOn": "2026-10-14", "official": true },
+    "yt_tags": { "url": "https://developers.google.com/youtube/v3/docs/videos (snippet.tags, 500 characters)", "verifiedOn": null, "official": true },
+    "ig_caption": { "url": "Secondary sources (help.instagram.com not reachable from build environment)", "verifiedOn": null, "official": false },
+    "ig_hashtags": { "url": "https://www.socialmediatoday.com/news/instagram-implements-new-limits-on-hashtag-use/808309/ (5 per post/reel since Dec 2025)", "verifiedOn": null, "official": false },
+    "fb_post": { "url": "Secondary sources (63,206 characters)", "verifiedOn": null, "official": false },
+    "editorial": { "url": "Kishore Social Studio editorial preference", "verifiedOn": "2026-10-14", "official": false }
+  },
+  "limits": {
+    "yt_shorts": {
+      "titleOptions": { "max": 100, "unit": "chars", "kind": "hard", "source": "yt_title" },
+      "description": { "max": 5000, "unit": "chars", "kind": "hard", "source": "yt_description" },
+      "hashtags": { "max": 60, "unit": "items", "kind": "hard", "source": "yt_hashtags" },
+      "keywords": { "max": 500, "unit": "joinedChars", "kind": "hard", "source": "yt_tags" },
+      "thumbnailText": { "max": 40, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "hook3s": { "max": 120, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "pinnedComment": { "max": 500, "unit": "chars", "kind": "editorial", "source": "editorial" }
+    },
+    "yt_long": {
+      "titleOptions": { "max": 100, "unit": "chars", "kind": "hard", "source": "yt_title" },
+      "description": { "max": 5000, "unit": "chars", "kind": "hard", "source": "yt_description" },
+      "hashtags": { "max": 60, "unit": "items", "kind": "hard", "source": "yt_hashtags" },
+      "keywords": { "max": 500, "unit": "joinedChars", "kind": "hard", "source": "yt_tags" },
+      "thumbnailText": { "max": 40, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "hook3s": { "max": 120, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "pinnedComment": { "max": 500, "unit": "chars", "kind": "editorial", "source": "editorial" }
+    },
+    "yt_live": {
+      "titleOptions": { "max": 100, "unit": "chars", "kind": "hard", "source": "yt_title" },
+      "description": { "max": 5000, "unit": "chars", "kind": "hard", "source": "yt_description" },
+      "hashtags": { "max": 60, "unit": "items", "kind": "hard", "source": "yt_hashtags" },
+      "keywords": { "max": 500, "unit": "joinedChars", "kind": "hard", "source": "yt_tags" },
+      "thumbnailText": { "max": 40, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "hook3s": { "max": 120, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "pinnedComment": { "max": 500, "unit": "chars", "kind": "editorial", "source": "editorial" }
+    },
+    "yt_community": {
+      "postText": { "max": 1500, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "hashtags": { "max": 10, "unit": "items", "kind": "editorial", "source": "editorial" }
+    },
+    "fb_reel": {
+      "hookOptions": { "max": 125, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "caption": { "max": 2200, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "overlayText": { "max": 60, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "hashtags": { "max": 10, "unit": "items", "kind": "editorial", "source": "editorial" }
+    },
+    "fb_video": {
+      "hookOptions": { "max": 125, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "caption": { "max": 63206, "unit": "chars", "kind": "hard", "source": "fb_post" },
+      "overlayText": { "max": 60, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "hashtags": { "max": 10, "unit": "items", "kind": "editorial", "source": "editorial" }
+    },
+    "fb_text": {
+      "hook": { "max": 125, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "caption": { "max": 63206, "unit": "chars", "kind": "hard", "source": "fb_post" },
+      "hashtags": { "max": 10, "unit": "items", "kind": "editorial", "source": "editorial" }
+    },
+    "fb_image": {
+      "hook": { "max": 125, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "caption": { "max": 63206, "unit": "chars", "kind": "hard", "source": "fb_post" },
+      "overlayText": { "max": 60, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "hashtags": { "max": 10, "unit": "items", "kind": "editorial", "source": "editorial" }
+    },
+    "fb_live": {
+      "hook": { "max": 125, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "caption": { "max": 63206, "unit": "chars", "kind": "hard", "source": "fb_post" },
+      "hashtags": { "max": 10, "unit": "items", "kind": "editorial", "source": "editorial" }
+    },
+    "ig_reel": {
+      "hookOptions": { "max": 125, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "caption": { "max": 2200, "unit": "chars", "kind": "hard", "source": "ig_caption" },
+      "overlayText": { "max": 60, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "hashtags": { "max": 5, "unit": "hashtagsTotal", "kind": "hard", "source": "ig_hashtags" }
+    },
+    "ig_feed": {
+      "hookOptions": { "max": 125, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "caption": { "max": 2200, "unit": "chars", "kind": "hard", "source": "ig_caption" },
+      "overlayText": { "max": 60, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "hashtags": { "max": 5, "unit": "hashtagsTotal", "kind": "hard", "source": "ig_hashtags" }
+    },
+    "ig_carousel": {
+      "hook": { "max": 125, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "caption": { "max": 2200, "unit": "chars", "kind": "hard", "source": "ig_caption" },
+      "slideTexts": { "max": 80, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "hashtags": { "max": 5, "unit": "hashtagsTotal", "kind": "hard", "source": "ig_hashtags" }
+    },
+    "ig_story": {
+      "overlayText": { "max": 80, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "interactionPrompt": { "max": 80, "unit": "chars", "kind": "editorial", "source": "editorial" }
+    },
+    "ig_live": {
+      "hook": { "max": 125, "unit": "chars", "kind": "editorial", "source": "editorial" },
+      "caption": { "max": 2200, "unit": "chars", "kind": "hard", "source": "ig_caption" },
+      "hashtags": { "max": 5, "unit": "hashtagsTotal", "kind": "hard", "source": "ig_hashtags" }
+    }
+  },
+  "guidance": {
+    "yt_shorts": [
+      "Vertical video under a minute. Titles short and specific; the key fact first.",
+      "hook3s is what is said or shown in the first 3 seconds — one sentence, no greeting.",
+      "Description: 2–4 short lines summarising only what the input says, then the CTA."
+    ],
+    "yt_long": [
+      "Titles may carry more context but stay under 70 characters where possible so they are not cut off in search.",
+      "Description: a factual summary paragraph from the input, then what the video covers, then the CTA.",
+      "Keywords are search terms taken from the input (names, places, topic) — no invented entities."
+    ],
+    "yt_live": [
+      "Wording depends on live status: upcoming → announce date/time exactly as entered; live → may say LIVE now; ended → refer to the recording.",
+      "Never write a date, time or speaker that is not in the live details."
+    ],
+    "yt_community": [
+      "Community post: conversational, 2–5 short lines.",
+      "A poll is optional; if included, the question must be neutral and choices must not presume facts not in the input."
+    ],
+    "fb_reel": ["Three different opening hooks — vary structure, not facts.", "overlayText is a few words burned onto the video."],
+    "fb_video": ["Three different opening hooks.", "Caption may be longer: summary from the input, context, then CTA."],
+    "fb_text": ["Text-only post: the hook is the first line people see before 'See more'."],
+    "fb_image": ["overlayText goes on the image — a short, factual phrase."],
+    "fb_live": ["Announcement for a Facebook live; wording driven by live status exactly as for YouTube live."],
+    "ig_reel": ["Three hooks for the first line of the caption.", "Instagram allows at most 5 hashtags per post/reel — keep the recommended list to 5 including the channel hashtag."],
+    "ig_feed": ["Three hooks for the first line of the caption.", "At most 5 hashtags including the channel hashtag."],
+    "ig_carousel": ["slideTexts: one short line per slide, in order, each a fact from the input. 3–8 slides.", "At most 5 hashtags including the channel hashtag."],
+    "ig_story": ["Very short overlay text that fits on a phone screen.", "interactionPrompt is an optional question for a poll/question sticker. No hashtags block."],
+    "ig_live": ["Announcement for an Instagram live; wording driven by live status.", "At most 5 hashtags including the channel hashtag."]
+  }
+}

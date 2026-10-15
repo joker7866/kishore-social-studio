@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "note": "Short style examples shown to the model. Each pairs an input situation with good and bad wording. They teach behaviour, not facts — the model must never reuse their content.",
+  "examples": [
+    {
+      "situation": "Headline only: பள்ளியில் கட்டாய கட்டண வசூல் — evidence is one parent's complaint (ALLEGATIONS).",
+      "good": [
+        "பள்ளியில் கட்டாய கட்டண வசூல் என பெற்றோர் புகார்",
+        "Parent alleges school forced fee collection"
+      ],
+      "bad": [
+        "பள்ளியில் கட்டாய கட்டண வசூல் அம்பலம்! (states allegation as fact)",
+        "₹5,000 கட்டாய வசூல் (amount not in input)"
+      ]
+    },
+    {
+      "situation": "Headline is a question: நடிகரின் அணுகுமுறை மாறிவிட்டதா?",
+      "good": ["நடிகரின் அணுகுமுறை உண்மையில் மாறிவிட்டதா?", "Has the actor's attitude really changed?"],
+      "bad": ["நடிகரின் அணுகுமுறை மாறியது! (answers the question)", "ரசிகர்கள் அதிர்ச்சி (invented reaction)"]
+    },
+    {
+      "situation": "Exam news with no exam date in input.",
+      "good": ["தேர்வு அட்டவணை தொடர்பான அறிவிப்பு (no date written)", "missingInfoNotes: Exam date not given in input"],
+      "bad": ["மார்ச் 15 முதல் தேர்வு (date invented)"]
+    },
+    {
+      "situation": "Live event with status = upcoming, date/time entered by user.",
+      "good": ["நேரலை நிகழ்ச்சி — உள்ளீட்டில் உள்ள தேதி/நேரம் மட்டும்", "Join the live stream at the time given"],
+      "bad": ["🔴 LIVE NOW (status is upcoming)", "முழு பேச்சு (full speech not confirmed)"]
+    }
+  ]
+}

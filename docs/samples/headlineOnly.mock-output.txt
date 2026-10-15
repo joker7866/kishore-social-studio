@@ -1,0 +1,61 @@
+﻿Kishore Social Studio — மெட்ரோ ரயில் சேவை நேர மாற்றம்
+
+Headline: மெட்ரோ ரயில் சேவை நேர மாற்றம்
+
+Created: 2026-10-14T14:14:05.582Z   Updated: 2026-10-14T14:14:05.582Z
+
+
+
+=== YouTube · Shorts ===
+Title options:
+  1. மெட்ரோ ரயில் சேவை நேர மாற்றம்  (recommended)
+  2. மெட்ரோ ரயில் சேவை நேர மாற்றம் | முழு விவரம்
+  3. மெட்ரோ ரயில் சேவை நேர மாற்றம் | என்ன நடந்தது?
+First 3 seconds hook:
+மெட்ரோ ரயில் சேவை நேர மாற்றம்
+Description:
+மெட்ரோ ரயில் சேவை நேர மாற்றம்
+
+இந்த செய்தி குறித்த விவரங்களை இந்த வீடியோவில் பாருங்கள்.
+
+மேலும் செய்திகளுக்கு growwithkishore பக்கத்தை பின்தொடருங்கள்.
+Thumbnail text:
+மெட்ரோ ரயில் சேவை நேர
+Call to action:
+மேலும் செய்திகளுக்கு growwithkishore பக்கத்தை பின்தொடருங்கள்.
+Hashtags: #growwithkishore #தமிழ்செய்திகள் #TamilNews
+
+[Editor note — missing information]
+- Only a headline was given — date, place and source are not in the input.
+(Mock (no AI, test output) · mock-fixtures-v1 · MOCK OUTPUT)
+
+=== Facebook · Reel ===
+Opening hook options:
+  1. மெட்ரோ ரயில் சேவை நேர மாற்றம்  (recommended)
+  2. மெட்ரோ ரயில் சேவை நேர மாற்றம் | முழு விவரம்
+  3. மெட்ரோ ரயில் சேவை நேர மாற்றம் | என்ன நடந்தது?
+Caption:
+மெட்ரோ ரயில் சேவை நேர மாற்றம்
+
+இந்த செய்தி குறித்த விவரங்களை இந்த வீடியோவில் பாருங்கள்.
+
+மேலும் செய்திகளுக்கு growwithkishorenews பக்கத்தை பின்தொடருங்கள்.
+Overlay text:
+விவரம் கீழே
+Call to action:
+மேலும் செய்திகளுக்கு growwithkishorenews பக்கத்தை பின்தொடருங்கள்.
+Hashtags: #growwithkishorenews #தமிழ்செய்திகள் #TamilNews
+
+[Editor note — missing information]
+- Only a headline was given — date, place and source are not in the input.
+(Mock (no AI, test output) · mock-fixtures-v1 · MOCK OUTPUT)
+
+=== Instagram · Story text ===
+Overlay text:
+மெட்ரோ ரயில் சேவை நேர மாற்றம்
+Interaction prompt:
+இதைப் பற்றி உங்கள் கருத்து என்ன?
+
+[Editor note — missing information]
+- Only a headline was given — date, place and source are not in the input.
+(Mock (no AI, test output) · mock-fixtures-v1 · MOCK OUTPUT)

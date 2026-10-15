@@ -1,0 +1,31 @@
+# --- Node / Electron ---
+node_modules/
+out/
+dist/
+test-results/
+playwright-report/
+*.tsbuildinfo
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# --- Secrets (never commit) ---
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+keystore.properties
+local.properties
+google-services.json
+!google-services.json.example
+*.pem
+*.p12
+
+# --- Logs ---
+*.log
+

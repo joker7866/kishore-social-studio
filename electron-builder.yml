@@ -1,0 +1,41 @@
+appId: com.growwithkishore.socialstudio
+productName: Kishore Social Studio
+copyright: Copyright © 2026 Kishore
+directories:
+  output: dist
+  buildResources: build
+files:
+  - out/**/*
+  - package.json
+  - "!**/*.map"
+extraResources:
+  - from: skills
+    to: skills
+    filter: ["**/*"]
+  - from: resources/fonts
+    to: fonts
+    filter: ["**/*"]
+  - from: build/icon.png
+    to: icon.png
+asar: true
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+  icon: build/icon.ico
+  executableName: KishoreSocialStudio
+  # Unsigned build: Windows SmartScreen will show "Windows protected your PC".
+  # Click "More info" → "Run anyway". Add a code-signing certificate before public sharing.
+  signAndEditExecutable: true
+nsis:
+  oneClick: false
+  perMachine: false
+  allowElevation: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Kishore Social Studio
+  artifactName: Kishore-Social-Studio-Setup-${version}.exe
+  uninstallDisplayName: Kishore Social Studio
+  deleteAppDataOnUninstall: false
+npmRebuild: false
